@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="description" content="Hasitha Wijesinghe - Full-Stack Developer Portfolio" />
+  <title>Hasitha Wijesinghe - Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header" role="navigation" aria-label="Primary navigation">
+    <p class="hasitha-DEV"><span class="logo-first-part">Hasitha.</span> <span class="logo-after-part">DEV</span>
+    </p>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#home" class="navbar-text text-home">Home</a></li>
+        <li><a href="#about" class="navbar-text text-about">About</a></li>
+        <li><a href="#resume" class="navbar-text text-resume">Resume</a></li>
+        <li><a href="#work" class="navbar-text text-work">Work</a></li>
+        <li><a href="#gallery" class="navbar-text text-gallery">Gallery</a></li>
+        <li><a href="#contact" class="navbar-text text-contact">Contact</a></li>
+      </ul>
+    </nav>
+    <label class="burger" for="burger">
+      <input type="checkbox" id="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </header>
+  <div class="side-menubar">
+    <nav class="side-navbar" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#home" class="navbar-text text-home">Home</a></li>
+        <hr>
+        <li><a href="#about" class="navbar-text text-about">About</a></li>
+        <hr>
+
+        <li><a href="#resume" class="navbar-text text-resume">Resume</a></li>
+        <hr>
+
+        <li><a href="#work" class="navbar-text text-work">Work</a></li>
+        <hr>
+
+        <li><a href="#gallery" class="navbar-text text-gallery">Gallery</a></li>
+        <hr>
+
+        <li><a href="#contact" class="navbar-text text-contact">Contact</a></li>
+        <hr>
+
+      </ul>
+    </nav>
+  </div>
+
+  <section class="home visited-section" id="home">
+
+
+    <div class="home-main-container">
+      <div class="home-left-side">
+        <div class="home-text">
+          <h1 class="home-text-hello">Hello!</h1>
+          <p class="home-text-name">I Am Hasitha ,</p>
+          <p class="home-text-job">Full-Stack Developer</p>
+        </div>
+        <div class="home-buttons">
+          <a href="#" class="buttons-button-cv" aria-label="Download CV"
+            onclick="openNewTab('assets/Hasitha Wijesinghe CV-26-01.pdf')">
+            <span class="button-cv-rectangle" aria-hidden="true"></span>
+            <span class="button-btn-text" style="cursor: pointer;">Download CV</span>
+          </a>
+          <a href="#contact" class="buttons-button-contact" aria-label="Contact">
+            <span class="button-contact-rectangle" aria-hidden="true"></span>
+            <span class="button-btn-text">Contact</span>
+          </a>
+        </div>
+        <div class="social-media">
+          <a href="#" class="social-media-link" aria-label="LinkedIn Profile">
+            <img src="assets/square-linkedin-brands-solid.svg" alt="LinkedIn icon" class="social-media-icon" />
+          </a>
+          <a class="social-media-link" aria-label="GitHub Profile"
+            onclick="openNewTab('https://github.com/HasithaLWi')">
+            <img src="assets/github-brands-solid.svg" alt="GitHub icon" class="social-media-icon" />
+          </a>
+          <a href="#" class="social-media-link" aria-label="Facebook Profile">
+            <img src="assets/facebook-brands-solid.svg" alt="Facebook icon" class="social-media-icon" />
+          </a>
+          <a href="#" class="social-media-link" aria-label="Telegram profile">
+            <img src="assets/telegram-brands-solid.svg" alt="Telegram icon" class="social-media-icon" />
+          </a>
+          <a href="#" class="social-media-link" aria-label="WhatsApp profile">
+            <img src="assets/whatsapp-brands-solid.svg" alt="WhatsApp icon" class="social-media-icon" />
+          </a>
+        </div>
+      </div>
+      <div class="home-right-side">
+        <div class="home-rectangle" aria-hidden="true"></div>
+        <img class="profil-pic" src="assets/profil_pic.png" alt="Hasitha Wijesinghe profile picture"
+          fetchpriority="high" />
+      </div>
+    </div>
+  </section>
+  <section class="about visited-section" id="about">
+    <div class="about-header">
+      <h2 class="page-title title-about-me">ABOUT ME</h2>
+      <div class="page-title-underline underline-about-me" aria-hidden="true">
+        <div class="line-left"></div>
+        <div class="ellipse"></div>
+        <div class="line-right"></div>
+      </div>
+    </div>
+    <div class="aboutme-main-content">
+      <div class="left-side">
+        <div class="about-ring-wrap" aria-hidden="true">
+          <svg class="about-ring-svg" width="360" height="360" viewBox="0 0 250 250">
+            <circle class="about-ring-track1" cx="125" cy="125" r="62"></circle>
+            <circle class="about-ring-track2" cx="125" cy="125" r="40"></circle>
+            <circle class="about-ring-dot" cx="232" cy="125" r="9"></circle>
+          </svg>
+          <img class="aboutme-profile-image" src="assets/profil pic-modified.png" alt="About me illustration" />
+        </div>
+      </div>
+      <div class="right-side">
+        <h2 class="about-header-2">I'm a Passionate Full Stack Developer</h2>
+        <p class="about-paragraph">
+          <span class="about-paragraph-1">A passionate Full Stack Developer from Sri Lanka specializing in scalable
+            applications and management
+            systems. I leverage tools like Java and IntelliJ IDEA to deliver high-quality results. My technical
+            interests span
+          </span>
+          <span class="about-pragraph-2">Full Stack Development, AI Engineering, Cyber Security, and QA</span>
+          <span class="about-paragraph-1">.</span>
+        </p>
+        <dl class="about-contact-info" aria-label="Personal details">
+          <div class="about-contact-item info-name">
+            <span class="about-info-icon" aria-hidden="true">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <div class="about-contact-item-content">
+              <dt class="about-contact-info-header">Name</dt>
+              <dd class="about-contact-info-content">Hasitha Lakshan Wijesinghe</dd>
+            </div>
+          </div>
+
+          <div class="about-contact-item info-city">
+            <span class="about-info-icon" aria-hidden="true">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <div class="about-contact-item-content">
+              <dt class="about-contact-info-header">City</dt>
+              <dd class="about-contact-info-content">Galle</dd>
+            </div>
+          </div>
+
+          <div class="about-contact-item info-phone">
+            <span class="about-info-icon" aria-hidden="true">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <div class="about-contact-item-content">
+              <dt class="about-contact-info-header">Phone</dt>
+              <dd class="about-contact-info-content">+94758412376</dd>
+            </div>
+          </div>
+          <div class="about-contact-item info-country">
+            <span class="about-info-icon" aria-hidden="true">
+              <i class="fa-regular fa-flag"></i>
+            </span>
+            <div class="about-contact-item-content">
+              <dt class="about-contact-info-header">Country</dt>
+              <dd class="about-contact-info-content">Sri Lanka</dd>
+            </div>
+          </div>
+          <div class="about-contact-item info-email">
+            <span class="about-info-icon" aria-hidden="true">
+              <i class="fa-regular fa-envelope"></i>
+            </span>
+            <div class="about-contact-item-content">
+              <dt class="about-contact-info-header">Email</dt>
+              <dd class="about-contact-info-content">hasithawijesinghe2020@gmail.com</dd>
+            </div>
+          </div>
+        </dl>
+        <a href="#" class="buttons-button-cv" aria-label="Download CV"
+          onclick="openNewTab('assets/Hasitha Wijesinghe CV-26-01.pdf')">
+          <span class="button-cv-rectangle" aria-hidden="true"></span>
+          <span class="button-btn-text">Download CV</span>
+        </a>
+      </div>
+    </div>
+    <div class="about-skills">
+      <h3 class="about-skills-text">SKILLS</h3>
+
+      <div class="skills-marquee" aria-label="Skill set">
+        <div class="skills-track">
+          <img src="assets/java-brands-solid.svg" alt="java icon" class="skills-icon" loading="lazy" decoding="async" />
+          <img src="assets/python.svg" alt="python icon" class="skills-icon" loading="lazy" decoding="async" />
+          <img src="assets/html.svg" alt="html icon" class="skills-icon" loading="lazy" decoding="async" />
+          <img src="assets/css.svg" alt="css icon" class="skills-icon" loading="lazy" decoding="async" />
+          <img src="assets/java-script.svg" alt="javascript icon" class="skills-icon" loading="lazy" decoding="async" />
+          <img src="assets/docker-brands-solid.svg" alt="docker icon" class="skills-icon" loading="lazy"
+            decoding="async" />
+          <img src="assets/postgresql-brands-solid.svg" alt="postgresql icon" class="skills-icon" loading="lazy"
+            decoding="async" />
+          <img src="assets/svgviewer-output.svg" alt="mysql icon" class="skills-icon" loading="lazy" decoding="async" />
+
+          <img src="assets/java-brands-solid.svg" alt="" aria-hidden="true" class="skills-icon skill-clone"
+            loading="lazy" decoding="async" />
+          <img src="assets/python.svg" alt="" aria-hidden="true" class="skills-icon skill-clone" loading="lazy"
+            decoding="async" />
+          <img src="assets/html.svg" alt="" aria-hidden="true" class="skills-icon skill-clone" loading="lazy"
+            decoding="async" />
+          <img src="assets/css.svg" alt="" aria-hidden="true" class="skills-icon skill-clone" loading="lazy"
+            decoding="async" />
+          <img src="assets/java-script.svg" alt="" aria-hidden="true" class="skills-icon skill-clone" loading="lazy"
+            decoding="async" />
+          <img src="assets/docker-brands-solid.svg" alt="" aria-hidden="true" class="skills-icon skill-clone"
+            loading="lazy" decoding="async" />
+          <img src="assets/postgresql-brands-solid.svg" alt="" aria-hidden="true" class="skills-icon skill-clone"
+            loading="lazy" decoding="async" />
+          <img src="assets/svgviewer-output.svg" alt="" aria-hidden="true" class="skills-icon skill-clone"
+            loading="lazy" decoding="async" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="my-resume visited-section" id="resume" resumeTrasnsition()>
+    <div class="my-resume-header">
+      <h2 class="page-title title-myresume">MY RESUME</h2>
+      <div class="page-title-underline underline-myresume" aria-hidden="true">
+        <div class="line-left"></div>
+        <div class="ellipse"></div>
+        <div class="line-right"></div>
+      </div>
+    </div>
+    <div class="education">
+      <h3 class="page-sub-title title-education">EDUCATION</h3>
+      <div class="frame">
+        <div class="resume-box education-box education-box-1">
+          <time class="time">2025 - Present</time>
+          <h4 class="box-title">Higher Diploma in Software Engineering</h4>
+          <p class="box-where-title">Institute of Software Engineering</p>
+          <p class="resume-text-wrapper">
+            Focused on core principles of software engineering, including full-stack development and system design,
+            gaining hands-on experience in building robust applications.
+          </p>
+          <img class="ijse-logo" src="assets/logoijse2.png" alt="Institute of Software Engineering logo" loading="lazy"
+            decoding="async" />
+        </div>
+
+        <div class="resume-box education-box education-box-2">
+          <time class="time">2020 - 2023</time>
+          <h4 class="box-title">G.C.E. Advanced Level (2023)</h4>
+          <p class="box-where-title">St. Aloysius College</p>
+          <p class="physics-c-chemistry">Physics: C<br />Chemistry: C<br />Combined Mathematics: C</p>
+          <img class="st-aloysius-college" src="assets/St_Aloysius'_College_Crest.png" loading="lazy" decoding="async"
+            alt="St. Aloysius College crest" />
+        </div>
+        <div class="resume-box education-box education-box-3">
+          <time class="time">2014 - 2019</time>
+          <h4 class="box-title">G.C.E. Ordinary Level (2019)</h4>
+          <p class="box-where-title">Nagoda Royal College, Galle</p>
+          <p class="resume-text-wrapper">
+            2019 G.C.E. Ordinary Level Nagoda Royal College, Galle Completed with 9 subjects.<br />7 A Passes
+            (Distinctions)<br />1 B Pass (Very Good Pass)<br />1 C Pass (Credit Pass)
+          </p>
+          <img class="nagoda-royal-college" src="assets/Royal_College_Nagoda_crest.png" alt="Nagoda Royal College"
+            loading="lazy" decoding="async" />
+        </div>
+      </div>
+    </div>
+
+    <div class="experience">
+      <h3 class="page-sub-title title-experience">EXPERIENCE</h3>
+      <div class="frame-2">
+        <div class="resume-box experience-box experience-box-1">
+          <time class="time">2024 - 2025</time>
+          <h4 class="box-title">Computer Technician</h4>
+          <p class="box-where-title">eBase Computers</p>
+          <p class="resume-text-wrapper">
+            Diagnosed and resolved hardware and software issues for various systems. Managed OS installations,
+            system optimizations, and provided direct technical support to ensure efficient problem resolution and
+            customer satisfaction.
+          </p>
+          <!-- <img class="nagoda-royal-college" src="assets/Royal_College_Nagoda_crest.png" alt="Nagoda Royal College"
+            loading="lazy" decoding="async" /> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="activities">
+      <h3 class="page-sub-title title-activities">ACTIVITIES</h3>
+      <div class="frame-3">
+        <div class="resume-box activities-box activities-box-1">
+
+          <h4 class="box-title">Extra-Curricular Activities</h4>
+          <p class="box-where-title">Nagoda Royal College, Galle</p>
+          <p class="active-participants">
+            Active participant in school activities that built character and creativity.<br />Cadet Platoon:
+            Member of the school cadet team, focusing on discipline and teamwork.<br />Sports: Played cricket at
+            the school level, fostering team spirit and active collaboration.<br />Arts: Competed in multiple art
+            competitions, developing a sharp eye for visual design and detail.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="my-work-project visited-section" id="work">
+    <div class="work-header">
+      <h2 class="page-title title-my-work">MY WORK</h2>
+      <div class="page-title-underline underline-my-work" aria-hidden="true">
+        <div class="line-left"></div>
+        <div class="ellipse"></div>
+        <div class="line-right"></div>
+      </div>
+    </div>
+    <h3 class="page-sub-title title-project">PROJECTS</h3>
+    <h3 class="project-sub-title">Latest Completed Projects</h3>
+
+    <div class="project-slider">
+
+      <div class="project-card project-card-1">
+        <img class="img-1" src="assets/ETec Logo.png" alt="ETec Management System screenshot" loading="lazy"
+          decoding="async" />
+        <div class="project-buttons">
+          <button class="project-card-button view-code"
+            onclick="openNewTab('https://github.com/HasithaLWi/ETec-Management-System.git')">View Code</button>
+          <button class="project-card-button view-demo">View Demo</button>
+        </div>
+        <h4 class="project-name">ETec Management System</h4>
+        <p class="project-desc">Standalone Desktop Application</p>
+      </div>
+
+      <div class="project-card project-card-2">
+        <img class="img-2" src="assets/connect 4 game.png" alt="Connect Four Game screenshot" loading="lazy"
+          decoding="async" />
+        <div class="project-buttons">
+          <button class="project-card-button view-code"
+            onclick="openNewTab('https://github.com/HasithaLWi/OOP-CW01---Connect-4-Game.git')">View Code</button>
+          <button class="project-card-button view-demo">View Demo</button>
+        </div>
+        <h4 class="project-name">Connect Four Game</h4>
+        <p class="project-desc">Logic-Based Game Implementation</p>
+      </div>
+
+      <div class="project-card project-card-3">
+        <img class="terminal" src="assets/terminal.png" alt="Pigeon Service Management System terminal interface"
+          loading="lazy" decoding="async" />
+        <div class="project-buttons">
+          <button class="project-card-button view-code"
+            onclick="openNewTab('https://github.com/HasithaLWi/Terminal-Based-Stock-Management-System.git')">View
+            Code</button>
+          <button class="project-card-button view-demo">View Demo</button>
+        </div>
+        <h4 class="project-name">Pigeon Service Management System</h4>
+        <p class="project-desc">Terminal-Based&nbsp;&nbsp;System</p>
+      </div>
+    </div>
+  </section>
+  <section class="my-work-assignment visited-section">
+    <h3 class="page-sub-title title-assignment">ASSIGNMENTS</h3>
+    <div class="assignment-grid">
+      <div class="assignment-card assignment-card-1">
+        <h4 class="assignment-name">Assignment 01</h4>
+        <img class="pdf" src="assets/assignment01.jpg" alt="Assignment 01 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-2">
+        <h4 class="assignment-name">Assignment 02</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 02 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-3">
+        <h4 class="assignment-name">Assignment 03</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 03 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-4">
+        <h4 class="assignment-name">Assignment 04</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 04 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-5">
+        <h4 class="assignment-name">Assignment 05</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 05 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-6">
+        <h4 class="assignment-name">Assignment 06</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 06 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-7">
+        <h4 class="assignment-name">Assignment 07</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 07 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-8">
+        <h4 class="assignment-name">Assignment 08</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 08 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-9">
+        <h4 class="assignment-name">Assignment 09</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 09 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-10">
+        <h4 class="assignment-name">Assignment 10</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 10 PDF icon" />
+        <div class="assignment-details">
+          <p class="assignment-description">Description: Designed a desktop mockup for a personal developer portfolio.
+            Focuses on modern UI/UX to effectively showcase software engineering projects.</p>
+          <p class="assignment-technologies">Technologies Used: Figma, UI/UX Design, Wireframing</p>
+          <a
+            href="https://www.figma.com/design/eDcwz7QA6y4dvAGQqLLxyR/Personal-Portfolio-Webpage_252762031?node-id=0-1&t=2tN1Z77Hy4rKHyMv-1">
+            figma design link
+          </a>
+        </div>
+      </div>
+      <div class="assignment-card assignment-card-11">
+        <h4 class="assignment-name">Assignment 11</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 11 PDF icon" />
+      </div>
+      <div class="assignment-card assignment-card-12">
+        <h4 class="assignment-name">Assignment 12</h4>
+        <img class="pdf" src="assets/pdf.png" alt="Assignment 12 PDF icon" />
+      </div>
+    </div>
+  </section>
+  <section class="gallery visited-section" id="gallery">
+    <div class="gallery-header">
+      <h2 class="page-title title-gallery">GALLERY</h2>
+      <div class="page-title-underline underline-gallery" aria-hidden="true">
+        <div class="line-left"></div>
+        <div class="ellipse"></div>
+        <div class="line-right"></div>
+      </div>
+    </div>
+    <div class="gallery-images-grid">
+      <div class="gallery-image-card g-img-card-1">
+        <img class="element-fabfa-a" src="assets/gallery-img-01.jpg" alt="Gallery image 1" loading="lazy"
+          decoding="async" />
+      </div>
+      <div class="gallery-image-card g-img-card-2">
+        <img class="DSC" src="assets/gallery-img-02.jpeg" alt="Gallery image 2" loading="lazy" decoding="async" />
+      </div>
+      <div class="gallery-image-card g-img-card-3">
+        <img class="dane-gedr" src="assets/gallery-img-03.jpg" alt="Gallery image 3" loading="lazy" decoding="async" />
+      </div>
+      <div class="gallery-image-card g-img-card-4">
+        <img class="DSC-2" src="assets/gallery-img-04.jpg" alt="Gallery image 4" loading="lazy" decoding="async" />
+      </div>
+      <div class="gallery-image-card g-img-card-5">
+        <img class="dansala" src="assets/gallery-img-05.jpg" alt="Gallery image 5" loading="lazy" decoding="async" />
+      </div>
+    </div>
+  </section>
+  <section class="contact visited-section" id="contact">
+    <div class="contact-header">
+      <h2 class="page-title title-contact">CONTACT NOW</h2>
+      <div class="page-title-underline underline-contact" aria-hidden="true">
+        <div class="line-left"></div>
+        <div class="ellipse"></div>
+        <div class="line-right"></div>
+      </div>
+    </div>
+
+    <div class="contact-main-grid">
+
+
+      <div class="left-side">
+        <div class="content-title">
+          <h2 class="header-label">Get in touch now</h2>
+          <p class="header-description">
+            Whether you have a project in mind, a question to ask, or an opportunity to discuss, feel free to get in
+            touch. I'm happy to connect and respond.
+          </p>
+        </div>
+        <form class="contact-form" aria-label="Contact form">
+
+          <div class="content-box">
+            <input type="text" id="name" name="name" class="user-details" aria-label="Your Name" required />
+            <label for="name" class="text-user-details">Your Name</label>
+          </div>
+          <div class="content-box">
+            <input type="email" id="email" name="email" class="user-details" aria-label="Your Email Address" required />
+            <label for="email" class="text-user-details">Your Email Address</label>
+          </div>
+          <div class="content-box-message">
+            <textarea id="message" name="message" class="user-massage" aria-label="Write a message" required></textarea>
+            <label for="message" class="text-user-details">Write a message</label>
+          </div>
+          <button type="submit" class="btn-send-message" aria-label="Send Message" onclick="sendEmail()">
+            <span class="btn-label">Send Message</span>
+          </button>
+        </form>
+      </div>
+      <div class="right-side">
+        <div class="contact-box-01" aria-hidden="true">
+          <div class="headphone-img-wrapper">
+            <span class="contact-icon">MSG</span>
+          </div>
+          <p class="headphones-wrapper-text">Write me a Message</p>
+        </div>
+        <div class="contact-box-02">
+          <div class="phone-call-img-wrapper" aria-hidden="true">
+            <span class="contact-icon">CALL</span>
+          </div>
+          <div class="phone-call-content-wrapper">
+            <p class="contact-box-text box-02-text">Have Question?</p>
+            <a href="#contact" class="phone-number">+94758412376</a>
+          </div>
+        </div>
+        <div class="contact-box-03">
+          <div class="email-img-wrapper" aria-hidden="true">
+            <span class="contact-icon">MAIL</span>
+          </div>
+          <div class="email-content-wrapper">
+            <p class="contact-box-text box-03-text">Write Email</p>
+            <a href="#contact" class="email-address">hasithawijesinghe2020@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-box-03">
+          <div class="location-img-wrapper" aria-hidden="true">
+            <span class="contact-icon">MAP</span>
+          </div>
+          <div class="location-content-wrapper">
+            <p class="contact-box-text box-04-text">Visit Now</p>
+            <p class="address">Galle, Southern Province , <br />Sri Lanka</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="left">
+      <p class="hasitha-DEV"><span class="logo-first-part">Hasitha.</span> <span class="logo-after-part">DEV</span>
+      </p>
+    </div>
+    <div class="middle">
+      <h3 class="footer-nav-label">QUICK LINKS</h3>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul>
+          <li><a href="#home" class="footer-home">HOME</a></li>
+          <li><a href="#about" class="footer-about">ABOUT</a></li>
+          <li><a href="#resume" class="footer-resume">RESUME</a></li>
+          <li><a href="#work" class="footer-work">WORK</a></li>
+          <li><a href="#gallery" class="footer-gallery">GALLERY</a></li>
+          <li><a href="#contact" class="footer-contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right">
+      <a href="#" class="social-media-link" aria-label="Facebook Profile">
+        <img src="assets/facebook-brands-solid.svg" alt="facebook icon" class="social-media-icon" />
+      </a>
+      <a class="social-media-link" aria-label="GitHub Profile" onclick="openNewTab('https://github.com/HasithaLWi')">
+        <img src="assets/github-brands-solid.svg" alt="github icon" class="social-media-icon" />
+      </a>
+      <a href="#" class="social-media-link" aria-label="LinkedIn Profile">
+        <img src="assets/square-linkedin-brands-solid.svg" alt="linkedin icon" class="social-media-icon" />
+      </a>
+      <a href="#" class="social-media-link" aria-label="Telegram Profile">
+        <img src="assets/telegram-brands-solid.svg" alt="telegram icon" class="social-media-icon" />
+      </a>
+      <a href="#" class="social-media-link" aria-label="WhatsApp Profile">
+        <img src="assets/whatsapp-brands-solid.svg" alt="whatsapp icon" class="social-media-icon" />
+      </a>
+    </div>
+    <hr>
+    <p class="text-wrapper-63">© 2026 Hasitha Wijesinghe. All Rights Reserved.</p>
+  </footer>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({ publicKey: "not set yet", }); // public key - rwEwsc_binrCybfNl
+    })();
+  </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
